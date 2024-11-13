@@ -1,0 +1,52 @@
+.available-trains-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgba(231, 16, 124, 0.8); /* Slightly transparent for readability */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #e1ef13;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.train-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.train-item {
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(246, 10, 10, 0.1);
+    width: 80%;
+}
+
+.train-item h3 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
