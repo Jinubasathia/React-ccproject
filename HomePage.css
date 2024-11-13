@@ -1,0 +1,160 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a1b9a; /* Changed to a brighter purple */
+    padding: 15px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.navbar h1 {
+    font-size: 24px; /* Increased font size for the title */
+}
+
+.navbar div button {
+    margin-left: 10px; /* Space between buttons */
+    background-color: #ffffff; /* White background for buttons */
+    color: #6a1b9a; /* Matching text color with navbar */
+    border: 1px solid #6a1b9a; /* Border matching navbar color */
+    padding: 10px 15px; /* Added padding for a better button look */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.navbar div button:hover {
+    background-color: #6a1b9a; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+.logout-button {
+    background-color: #f44336; /* Red background for the logout button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for consistency */
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    background-color: #f7f7f7; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+/* Intro Section */
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.intro-section h2 {
+    font-size: 24px;
+    color: #6a1b9a; /* Intro title color */
+}
+
+.intro-section p {
+    font-size: 16px;
+    color: #555; /* Dark gray for better readability */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+/* Booking form */
+.booking-section {
+    margin-bottom: 30px;
+}
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.booking-form .small-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 200px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.booking-form .small-input:focus {
+    border-color: #6a1b9a; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green background for the search button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Ensures the button goes to the next line */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.search-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    background-color: rgba(92, 3, 130, 0.807);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-social {
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between text and icons */
+    text-align: center; /* Centered text */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px; /* Space below the social media links */
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.social-media a:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.social-media img {
+    width: 20px; /* Slightly larger icon size */
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Privacy Policy */
+.privacy-policy {
+    font-size: 14px; /* Font size for the privacy policy link */
+    text-align: center; /* Centered text */
+}
+
+.privacy-policy a {
+    color: white; /* Privacy policy link color */
+    text-decoration: none; /* No underline */
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
