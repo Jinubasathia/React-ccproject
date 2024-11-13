@@ -1,0 +1,37 @@
+.about-us-container {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(22, 90, 29, 0.8); /* Semi-transparent overlay for text readability */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto; /* Centering the container */
+    color: #333; /* Change text color to dark for better contrast */
+
+    background-size: cover; /* Ensures it covers the full area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.about-us-title {
+    font-size: 2.5em; /* Larger font size for title */
+    color: #ef20d7; /* Dark color for text */
+}
+
+.about-us-subtitle {
+    font-size: 2em; /* Slightly smaller than the main title */
+    color: #ef20d7; /* Dark color for subtitles */
+    margin-top: 20px; /* Space above the subtitle */
+}
+
+.about-us-description {
+    font-size: 1.2em; /* Slightly larger text for description */
+    color: aqua; /* Lighter gray color for description */
+    margin: 10px 0; /* Add vertical spacing for descriptions */
+}
+
+.about-us-values {
+    list-style-type: disc; /* Bullet points for the values list */
+    padding-left: 20px; /* Indentation for the list */
+    color: aqua; /* Lighter gray for the list items */
+    text-align: left; /* Align list items to the left */
+}
