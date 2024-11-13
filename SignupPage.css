@@ -1,0 +1,95 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Q12VzuNm_xEKGoL7ChO8DoaFabNpo9yAyw&s');
+    background-size: cover;
+  }
+  
+  .signup-box {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .signup-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .signup-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #45a049;
+  }
+  
+  .already-account {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .already-account a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .already-account a:hover {
+    text-decoration: underline;
+  }
+  .link {
+    color: #4CAF50;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
