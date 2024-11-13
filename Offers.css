@@ -1,0 +1,92 @@
+
+
+
+.offers-page h1 {
+    font-size: 2.5rem; /* Font size for main title */
+    color: #e60b0b; /* Dark color for main title */
+    margin-bottom: 30px; /* Space below the main title */
+}
+
+.offer-list {
+    display: grid; /* Grid layout for offers */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    background-color: #f5f5f5; /* Light background for offers list */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto; /* Centering the container */
+    padding: 20px; /* Inner padding */
+}
+
+.offer-item {
+    background-color: yellow; /* Background for offer item */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(6, 211, 229, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling transition */
+}
+
+.offer-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 6px 12px rgba(220, 5, 5, 0.2); /* Increase shadow on hover */
+}
+
+.offer-item h3 {
+    font-size: 1.5rem; /* Font size for offer titles */
+    color: #007bff; /* Primary color for offer titles */
+}
+
+.offer-item p {
+    font-size: 1rem; /* Font size for offer descriptions */
+    color: #666; /* Lighter gray for descriptions */
+}
+
+.offer-item button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Button padding */
+    font-size: 1rem; /* Font size for button text */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.offer-item button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+body {
+    margin: 0; /* Remove default body margin */
+    background-image: url('https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRyYWlufGVufDB8fDB8fHww');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+}
+
+.offers-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    background-color: rgba(22, 169, 227, 0.8); /* Slightly transparent white background for readability */
+    border-radius: 8px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Optional: add blur effect for better contrast */
+    position: relative; /* Ensure positioning context for child elements */
+    z-index: 1; /* Ensures that the offers page is above the body background */
+}
+
+.offer-list {
+    display: grid; /* Grid layout for offers */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    background-color: palevioletred; /* Light background for offers list */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto; /* Centering the container */
+    padding: 20px; /* Inner padding */
+    z-index: 2; /* Ensures the offer list is above the .offers-page background */
+}
+
+/* Other existing styles remain unchanged */
+
